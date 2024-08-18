@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={bengali.className}>
         <Navbar></Navbar>
         <BrandBar></BrandBar>
-        <main className="grid place-content-center">
+        <main className="md:grid md:place-content-center">
           <div className="w-full lg:w-[1200px] xl:w-[1440px]">{children}</div>
         </main>
       </body>

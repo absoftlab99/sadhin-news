@@ -7,12 +7,12 @@ const Test = () => {
     const { results } = news;
 
     useEffect(() => {
-        fetch("https://newsdata.io/api/1/latest?country=bd&apikey=pub_51067dc7f6df447f4cee8b4ccd07078553e18")
+        fetch("news.json")
             .then(res => res.json())
             .then(data => setNews(data))
     }, [])
 
-    console.log(news.results);
+    console.log(news);
 
     return (
         <div>
@@ -22,7 +22,10 @@ const Test = () => {
 
             <div>
                 {
-                    results?.map(result => <h1 key={result.article_id} result={result}>{result.title}</h1>)
+                    news?.map(nws => <div key={nws.article_id} nws={nws}>
+                        <Image src={nws.image_url} height={100} width={150} alt='post image'/>
+                        <h1>{nws.title}</h1>
+                    </div>)
                 }
             </div>
         </div>

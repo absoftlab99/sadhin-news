@@ -3,8 +3,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='grid place-content-center bg-neutral'>
-            <div className="flex justify-between text-white lg:w-[1200px] xl:w-[1440px]">
+        <div className='md:grid md:place-content-center bg-neutral hidden'>
+            <div className="flex justify-between text-white w-full lg:w-[1200px] xl:w-[1440px]">
                 <Link className='p-4 hover:bg-gray-800' href='/'>প্রচ্ছদ</Link>
                 <Link className='p-4 hover:bg-gray-800' href='/'>সর্বশেষ</Link>
                 <Link className='p-4 hover:bg-gray-800' href='/'>জাতীয়</Link>

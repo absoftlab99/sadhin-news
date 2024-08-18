@@ -7,8 +7,8 @@ import Drawer from './Drawer';
 
 const BrandBar = () => {
     return (
-        <div className='grid place-content-center py-3 border-b-2'>
-            <div className="lg:w-[1200px] xl:w-[1440px]">
+        <div className='md:grid md:place-content-center py-3 border-b-2'>
+            <div className="w-full lg:w-[1200px] xl:w-[1440px]">
                 <div className="navbar bg-base-100">
                     <div className="navbar-start">
                         <p>শনিবার, ১৭ আগস্ট ২০২৪ | ২ ভাদ্র ১৪৩১</p>

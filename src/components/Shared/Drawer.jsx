@@ -11,7 +11,7 @@ const Drawer = () => {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                <ul className="menu bg-gray-900 min-h-full w-64 text-white">
+                <ul className="menu bg-gray-900 min-h-full w-80 lg:w-64 text-white">
                     {/* Sidebar content here */}
                     <Link className='p-4 hover:bg-gray-800' href='/'>প্রচ্ছদ</Link>
                     <Link className='p-4 hover:bg-gray-800' href='/'>সর্বশেষ</Link>
