@@ -1,10 +1,10 @@
-import Test from "@/components/Test";
+import LeadNewsLayout from "@/components/Post/LeadNews/LeadNewsLayout";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-        <Test></Test>
+    <div className="my-5">
+        <LeadNewsLayout></LeadNewsLayout>
     </div>
   );
 }
