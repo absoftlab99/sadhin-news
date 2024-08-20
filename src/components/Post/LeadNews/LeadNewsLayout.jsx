@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import LeadNews from './LeadNews';
 import SideLeadNews from './SideLeadNews';
+import NewsDetailsMain from '@/components/NewsDetails/NewsDetailsMain';
 
 const LeadNewsLayout = () => {
     const [allNews, setAllNews] = useState([]);
@@ -12,7 +13,7 @@ const LeadNewsLayout = () => {
             .then(data => setAllNews(data))
     }, [])
 
-    // console.log(allNews);
+    console.log(allNews);
 
     return (
         <div className='grid grid-cols-12 gap-4'>
