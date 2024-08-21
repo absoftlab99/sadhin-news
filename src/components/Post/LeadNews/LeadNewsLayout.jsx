@@ -13,7 +13,7 @@ const LeadNewsLayout = () => {
             .then(data => setAllNews(data))
     }, [])
 
-    console.log(allNews);
+    // console.log(allNews);
 
     return (
         <div className='grid grid-cols-12 gap-4'>

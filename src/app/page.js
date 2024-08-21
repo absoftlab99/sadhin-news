@@ -1,6 +1,7 @@
 import LatestTicker from "@/components/NewsTicker/LatestTicker";
 import CategoryNewsLayout from "@/components/Post/CategoryNews/CategoryNewsLayout";
 import LeadNewsLayout from "@/components/Post/LeadNews/LeadNewsLayout";
+import SubCategoryNews from "@/components/Post/SubCategoryNews/SubCategoryNews";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
         <LeadNewsLayout></LeadNewsLayout>
         <div className="divider divider-error text-error font-bold text-[18px] md:text-[24px] my-10">রাজনীতি</div>
         <CategoryNewsLayout></CategoryNewsLayout>
+        <div className="divider divider-error text-error font-bold text-[18px] md:text-[24px] my-10">শিক্ষা</div>
+        <SubCategoryNews></SubCategoryNews>
     </div>
   );
 }
