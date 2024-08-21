@@ -1,9 +1,9 @@
-import { Noto_Serif_Bengali } from "next/font/google";
+import { Hind_Siliguri, Noto_Serif_Bengali } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Shared/Navbar";
 import BrandBar from "@/components/Shared/BrandBar";
 
-const bengali = Noto_Serif_Bengali({ subsets: ["latin"] });
+const bengali = Hind_Siliguri({ weight: ["300", "400", "500", "600", "700"], subsets: ["bengali"] });
 
 export const metadata = {
   title: "Create Next App",

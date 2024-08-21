@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='md:grid md:place-content-center bg-neutral hidden sticky top-0'>
+        <div className='md:grid md:place-content-center bg-neutral hidden sticky top-0 z-50'>
             <div className="flex justify-between text-white w-full lg:w-[1200px] xl:w-[1440px]">
                 <Link className='p-4 hover:bg-gray-800' href='/'>প্রচ্ছদ</Link>
                 <Link className='p-4 hover:bg-gray-800' href='/'>সর্বশেষ</Link>

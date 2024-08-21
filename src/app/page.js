@@ -1,3 +1,4 @@
+import NewsDetailsMain from "@/components/NewsDetails/NewsDetailsMain";
 import LatestTicker from "@/components/NewsTicker/LatestTicker";
 import CategoryNewsLayout from "@/components/Post/CategoryNews/CategoryNewsLayout";
 import LeadNewsLayout from "@/components/Post/LeadNews/LeadNewsLayout";
