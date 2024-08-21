@@ -8,12 +8,12 @@ const LeadNewsLayout = () => {
     const [allNews, setAllNews] = useState([]);
 
     useEffect(() => {
-        fetch("news.json")
+        fetch("http://localhost:3000/news.json")
             .then(res => res.json())
             .then(data => setAllNews(data))
     }, [])
 
-    // console.log(allNews);
+    console.log(allNews);
 
     return (
         <div className='grid grid-cols-12 gap-4'>
